@@ -21,7 +21,12 @@ function Category({ params }) {
           <button className={styles.button}>See More</button>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/fruit.jpg" fill={true} className={styles.img} />
+          <Image
+            src="/fruit.jpg"
+            fill={true}
+            className={styles.img}
+            alt="imgage"
+          />
         </div>
       </div>
     </div>
